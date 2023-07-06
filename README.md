@@ -4,4 +4,4 @@ Bora codar são desafios semanais da Rocketseat promovido pela [Rocketseat](http
 Incluindo sempre que possível conhecimentos.
 
 ## 🔖 Projetos
-- #boracodar01 - Player de Música
+-  [#boracodar01 - Player de Música](https://github.com/Michelle-Freitas/bora-codar/tree/main/1-player-m%C3%BAsica)
