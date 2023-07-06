@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Player de música</title>
+</head>
+<body>
+    <div id="container">
+        <div class="player">
+            <img src="" alt="Imagem de música inicial" class="song-image">
+            <div class="info">
+                <h1 class="title"></h1>
+                <p class="artists"></p>
+
+            </div>
+            <div class="controls">
+                <button onclick="changePreviousSong()"><img src="./assets/icons/playback.svg" alt="Imagem ícone playback"></button>
+                <button onclick="playPauseSong()"><img src="./assets/icons/play.svg" alt="Imagem ícone play"></button>
+                <button onclick="changeNextSong()"><img src="./assets/icons/playfoward.svg" alt="Imagem ícone playfoward"></button>
+            </div>
+            <div class="duration">
+                <input type="range" name="duration" id="id-duration" min="0" max="0" value="0" onchange="changeTime(this.value)">
+                <div class="time">
+                    <span id="real-time">00:00</span>
+                    <span id="full-time">00:00</span>
+                </div>
+            </div>
+        </div>
+        <audio src="" autoplay="autoplay"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
