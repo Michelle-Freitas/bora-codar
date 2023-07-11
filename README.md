@@ -5,3 +5,4 @@ Incluindo sempre que possível conhecimentos.
 
 ## 🔖 Projetos
 -  [#boracodar01 - Player de Música](https://github.com/Michelle-Freitas/bora-codar/tree/main/1-player-m%C3%BAsica)
+-  [#boracodar02 - Card de Produto](https://github.com/Michelle-Freitas/bora-codar/tree/main/2-card-produto)
