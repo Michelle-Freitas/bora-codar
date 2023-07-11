@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadCard()">
+    <div class="container">
+        <div class="img-container">
+            <button class="switch-btn" name="girar" onclick="rotateProduct(name)">
+                <img src="./assets/icon/360.svg" id="icon-btn" >
+            </button>
+            <img src="./assets/img/sofa.svg" alt="Imagem de sofá" class="product-img">
+        </div>
+        <div class="infos-container">
+            <div class="info-card">
+                <p id="product-code"></p>
+                <h1 id="product-name"></h1>
+                <p id="product-price"></p>
+                <button>ADICIONAR À CESTA</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
