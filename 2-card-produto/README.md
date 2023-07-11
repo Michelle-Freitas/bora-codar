@@ -5,10 +5,10 @@ Layout e desafio do #boraCodar02 da Rocketseat<br/>
 </p>
 
 <p align="center">
-  <img alt="Imagem do player de música" src="./public/estatico">
+  <img alt="Imagem do sofá estatico" src="./public/estatico.png">
 </p>
 <p align="center">
-  <img alt="Imagem do player de música" src="./public/girando">
+  <img alt="Imagem do sofá girando" src="./public/girando.png">
 </p>
 
 <p align="center">
